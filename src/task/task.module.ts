@@ -5,9 +5,8 @@ import { TaskController } from './task.controller';
 import { Task } from './entities/task.entity';
 import { CreateTaskHandler } from './cqrs/handlers/create-task.handdler';
 import { ListTaskHandler } from './cqrs/handlers/list-task.handdler';
-import { ListByIdTaskHandler } from './cqrs/handlers/list-by-id-task.handdler copy';
+import { ListByIdTaskHandler } from './cqrs/handlers/list-by-id-task.handdler';
 import { DeleteTaskHandler } from './cqrs/handlers/delete-task.handdler';
-import { UpdateByCompletedCommand } from './cqrs/commands/update-by-completed.command';
 import { UpdateByCompletedHandler } from './cqrs/handlers/update-by-completed.handler';
 
 @Module({
